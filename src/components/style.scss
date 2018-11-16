@@ -1,0 +1,44 @@
+$main-color: darken(brown,20%);
+$accent-color: lighten(brown, 40%);
+
+body {
+    background-color: $main-color;
+
+    .container{
+        margin-top: 20px !important;
+
+    .header{
+        font-size: 3em;
+        margin: 0 auto;
+        color: darken(white,10%);
+    }
+        table{
+            margin-top: 10px;
+
+            thead{
+                font-size: 1.5em;
+            }
+
+            td>div{
+                font-size: 1.3em;
+            }
+        }
+
+        .weather-list, .segment{ 
+            background-color: $main-color;
+        }
+        td, th {
+            vertical-align: middle !important;
+            text-align: center !important;       
+        }
+        
+        svg {
+            height: 150px;
+        }
+        td:first-of-type, td:first-of-type > div {
+            height: 200px;
+            width: 230px;
+            margin: 0 auto;
+        }
+    }
+}
